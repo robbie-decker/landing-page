@@ -1,1 +1,102 @@
 /* CSS goes here */
+:root{
+    --dark-background-color: #1F2937;
+    --main-text: #F9FAF8;
+    --secondary-text: #E5E7EB;
+    --button-color: #3883F6;
+}
+
+a{
+    text-decoration: none;
+    color: var(--secondary-text);
+}
+
+img{
+    width: 200px;
+    height: auto;
+}
+
+.header{
+    background-color: var(--dark-background-color);  
+    display: flex;
+    justify-content: space-between;
+    /* padding: 0 10vw; */
+}
+
+.header ul{
+    display: flex;
+    list-style-type: none;
+    gap: 16px;
+}
+
+.header p{
+    color: var(--main-text);
+}
+
+.header-content{
+    background-color: var(--dark-background-color);
+    display: flex;
+    justify-content: center;
+}
+
+.header-content h1{
+    font-size: 48px;
+    font-weight: 800;
+    color: var(--main-text);
+    margin: 0;
+}
+
+.header-content p{
+    color: var(--secondary-text);
+}
+
+h3{
+    text-align: center;
+    color: var(--dark-background-color);
+    font-size: 36px;
+}
+
+.info-row{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.info-row img{
+    border-style: solid;
+    border-color: var(--button-color);
+    border-radius: 10px;
+}
+
+.quote{
+    background-color: var(--secondary-text);
+    padding: 25px;
+}
+
+.action{
+    background-color: var(--button-color);
+    color: var(--main-text);
+}
+
+.action p{
+    color: var(--secondary-text);
+}
+
+.footer{
+    background-color: var(--dark-background-color);
+    margin: 0;
+    padding: 5px 10px;
+}
+
+.footer p{
+    color: var(--secondary-text);
+    text-align: center;
+}
+
+body{
+    /* margin: auto; */
+    margin: 0
+}
+
+/* body div{
+    padding: 0 10vw;
+} */
